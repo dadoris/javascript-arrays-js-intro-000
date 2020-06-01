@@ -49,3 +49,9 @@ function destructivelyRemoveElementFromEndOfArray(cBars){
  return   cBars.slice(0, cBars.length - 1);
 
 }
+
+function removeElementFromEndOfArray(cBars){
+  cBars.pop();
+  return cBars ;
+  
+}
