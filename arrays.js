@@ -47,13 +47,13 @@ function removeElementFromBeginningOfArray(cBars ){
 
 function destructivelyRemoveElementFromEndOfArray(cBars){
 
-  cBars.pop();  //slice(0, cBars.length - 1);
+  cBars.pop();
   return   cBars;
 
 }
 
 function removeElementFromEndOfArray(cBars){
-  cBars.pop();
+  cBars.slice(0, cBars.length - 1);
   return cBars ;
 
 }
