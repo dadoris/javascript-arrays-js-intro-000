@@ -53,7 +53,7 @@ function destructivelyRemoveElementFromEndOfArray(cBars){
 }
 
 function removeElementFromEndOfArray(cBars){
-  cBars.slice(0, cBars.length - 1);
-  return cBars ;
+  return  cBars.slice(0, cBars.length - 1);
+
 
 }
