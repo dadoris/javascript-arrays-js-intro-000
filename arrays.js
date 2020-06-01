@@ -37,7 +37,8 @@ function accessElementInArray(cBars , ndx ){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(cBars ) {
-  return cBars.shift();
+  cBars.shift();
+  return cBars;
 }
 
 function removeElementFromBeginningOfArray(cBars ){
