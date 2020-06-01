@@ -47,7 +47,7 @@ function removeElementFromBeginningOfArray(cBars ){
 
 function destructivelyRemoveElementFromEndOfArray(cBars){
 
-  cBars = cBars.slice(0, cBars.length - 1);
+  cBars = cBars.pop()  //slice(0, cBars.length - 1);
   return   cBars;
 
 }
