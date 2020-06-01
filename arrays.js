@@ -27,7 +27,7 @@ function addElementToEndOfArray( cBars , candyBar ) {
 
 
 function destructivelyAddElementToEndOfArray( cBars , candyBar ){
-  cBars.shift(candyBar) ;
+  cBars.push(candyBar) ;
   return cBars ;
 }
 
@@ -53,5 +53,5 @@ function destructivelyRemoveElementFromEndOfArray(cBars){
 function removeElementFromEndOfArray(cBars){
   cBars.pop();
   return cBars ;
-  
+
 }
